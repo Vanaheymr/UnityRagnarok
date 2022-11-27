@@ -3418,7 +3418,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1199395593702464}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 313648218, guid: c1b78fa918b030fab1c1f6f6164daeb2, type: 3}
+  m_Script: {fileID: 313648218, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_playOnAwake: 1
@@ -3797,7 +3797,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1253871989305407}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1863081269, guid: c1b78fa918b030fab1c1f6f6164daeb2, type: 3}
+  m_Script: {fileID: 1863081269, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_hoverText: 
@@ -4143,7 +4143,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1273615628778420}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1404409730, guid: c1b78fa918b030fab1c1f6f6164daeb2, type: 3}
+  m_Script: {fileID: 1404409730, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_flickerIntensity: 0.1
@@ -4161,7 +4161,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1273615628778420}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 2053127972, guid: c1b78fa918b030fab1c1f6f6164daeb2, type: 3}
+  m_Script: {fileID: 2053127972, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_lightLod: 1
@@ -6945,7 +6945,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1326318706267383}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 130663047, guid: c1b78fa918b030fab1c1f6f6164daeb2, type: 3}
+  m_Script: {fileID: 130663047, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_type: 4
@@ -7381,7 +7381,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1383630563090961}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 313648218, guid: c1b78fa918b030fab1c1f6f6164daeb2, type: 3}
+  m_Script: {fileID: 313648218, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_playOnAwake: 1
@@ -8579,7 +8579,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1516052049475835}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 2094620348, guid: c1b78fa918b030fab1c1f6f6164daeb2, type: 3}
+  m_Script: {fileID: 2094620348, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_primaryTarget: 1
@@ -8649,7 +8649,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1516052049475835}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1521249158, guid: c1b78fa918b030fab1c1f6f6164daeb2, type: 3}
+  m_Script: {fileID: 1521249158, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_persistent: 1
@@ -8665,7 +8665,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1516052049475835}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1927840188, guid: c1b78fa918b030fab1c1f6f6164daeb2, type: 3}
+  m_Script: {fileID: -1927840188, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_name: $piece_ancientfurnace
@@ -14021,7 +14021,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1545151438716221}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1863081269, guid: c1b78fa918b030fab1c1f6f6164daeb2, type: 3}
+  m_Script: {fileID: 1863081269, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_hoverText: 
@@ -20256,7 +20256,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1779880317294583}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 130663047, guid: c1b78fa918b030fab1c1f6f6164daeb2, type: 3}
+  m_Script: {fileID: 130663047, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_type: 3
@@ -23204,7 +23204,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1893494675785302}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 971010301, guid: c1b78fa918b030fab1c1f6f6164daeb2, type: 3}
+  m_Script: {fileID: 971010301, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_smokePrefab: {fileID: 1895001632525427, guid: 09a61330845d4264c8aa2ba34e89b2a5,

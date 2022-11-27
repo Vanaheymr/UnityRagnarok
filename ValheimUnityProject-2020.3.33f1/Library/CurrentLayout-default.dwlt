@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 101
+  controlID: 128
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 106
+  controlID: 83
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 107
+  controlID: 84
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -192,8 +192,8 @@ MonoBehaviour:
     y: 0
     width: 352
     height: 471
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -272,8 +272,8 @@ MonoBehaviour:
     y: 0
     width: 483
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -327,8 +327,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -541.5
     m_HBaseRangeMax: 541.5
-    m_VBaseRangeMin: -214.5
-    m_VBaseRangeMax: 214.5
+    m_VBaseRangeMin: -225
+    m_VBaseRangeMax: 225
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -345,11 +345,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 21
+      y: 0
       width: 1083
-      height: 429
+      height: 450
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 541.5, y: 214.5}
+    m_Translation: {x: 541.5, y: 225}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -357,9 +357,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -541.5
-      y: -214.5
+      y: -225
       width: 1083
-      height: 429
+      height: 450
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1083, y: 450}
@@ -396,9 +396,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 543d0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 7efbffff
+      m_SelectedIDs: 36900500
+      m_LastClickedID: 364598
+      m_ExpandedIDs: 0ed7ffff369005004890050050900500569005005a900500689005006c90050074900500769005007c900500889005008e9005009a900500a4900500ac900500b8900500ba900500bc900500c4900500c6900500ca900500d8900500da900500e0900500e2900500e4900500029105000e910500189105001c910500209105002a9105002c9105002e910500389105003c910500449105004e9105005c91050066910500689105006e9105007291050082910500
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -450,7 +450,7 @@ MonoBehaviour:
   m_ShowContextualTools: 0
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
   m_Gizmos: 1
-  m_OverrideSceneCullingMask: 6917529027641081856
+  m_OverrideSceneCullingMask: 0
   m_SceneIsLit: 0
   m_SceneLighting: 1
   m_2DMode: 0
@@ -458,9 +458,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 1, z: -10}
+    m_Target: {x: 0, y: 2.46, z: 0}
     speed: 2
-    m_Value: {x: 0, y: 1, z: -10}
+    m_Value: {x: 0, y: 2.46, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -511,9 +511,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.0014513248, y: -0.99756324, z: 0.06624494, w: -0.021842187}
   m_Size:
-    m_Target: 12.124355
+    m_Target: 18.186533
     speed: 2
-    m_Value: 12.124355
+    m_Value: 18.186533
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -576,22 +576,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Plugins/NGTools
+    - Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Plugins/NGTools
+  - Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Valheim\UnityRagnarok\ValheimUnityProject-2020.3.33f1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 97}
-    m_SelectedIDs: 543d0000
-    m_LastClickedID: 15700
-    m_ExpandedIDs: 00000000963c0000983c0000c23c000000ca9a3b
+    scrollPos: {x: 0, y: 189}
+    m_SelectedIDs: 623d0000
+    m_LastClickedID: 15714
+    m_ExpandedIDs: 00000000f23c0000f43c0000203d00004a3d0000543d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -619,7 +619,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000963c0000983c0000
+    m_ExpandedIDs: 00000000f23c0000f43c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

@@ -145,7 +145,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1019700870953273}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1421768954, guid: c1b78fa918b030fab1c1f6f6164daeb2, type: 3}
+  m_Script: {fileID: -1421768954, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_nViewOverride: {fileID: 0}
@@ -315,7 +315,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1019700870953273}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1521249158, guid: c1b78fa918b030fab1c1f6f6164daeb2, type: 3}
+  m_Script: {fileID: 1521249158, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_persistent: 1
@@ -331,7 +331,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1019700870953273}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1109157524, guid: c1b78fa918b030fab1c1f6f6164daeb2, type: 3}
+  m_Script: {fileID: 1109157524, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_syncPosition: 1
@@ -348,7 +348,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1019700870953273}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -917656959, guid: c1b78fa918b030fab1c1f6f6164daeb2, type: 3}
+  m_Script: {fileID: -917656959, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_syncBools:
@@ -370,7 +370,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1019700870953273}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 829610738, guid: c1b78fa918b030fab1c1f6f6164daeb2, type: 3}
+  m_Script: {fileID: 829610738, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_viewRange: 50
@@ -462,7 +462,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1019700870953273}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1383431051, guid: c1b78fa918b030fab1c1f6f6164daeb2, type: 3}
+  m_Script: {fileID: -1383431051, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_spawnOffset: {x: 0, y: 0, z: 0}
@@ -476,7 +476,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1019700870953273}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1266444067, guid: c1b78fa918b030fab1c1f6f6164daeb2, type: 3}
+  m_Script: {fileID: -1266444067, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_footstepCullDistance: 50
@@ -12435,7 +12435,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1901631613322751}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1137906148, guid: c1b78fa918b030fab1c1f6f6164daeb2, type: 3}
+  m_Script: {fileID: 1137906148, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_footIK: 1

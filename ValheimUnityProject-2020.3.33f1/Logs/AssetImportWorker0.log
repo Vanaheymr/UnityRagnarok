@@ -15,11 +15,11 @@ C:/Valheim/UnityRagnarok/ValheimUnityProject-2020.3.33f1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52661
+52490
 Successfully changed project path to: C:/Valheim/UnityRagnarok/ValheimUnityProject-2020.3.33f1
 C:/Valheim/UnityRagnarok/ValheimUnityProject-2020.3.33f1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 124.19 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 128.70 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -35,35 +35,35 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001324 seconds.
+Registered in 0.001291 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 122.06 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 124.56 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.537 seconds
+- Completed reload, in  0.543 seconds
 Domain Reload Profiling:
-	ReloadAssembly (537ms)
-		BeginReloadAssembly (47ms)
+	ReloadAssembly (543ms)
+		BeginReloadAssembly (49ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (434ms)
-			LoadAssemblies (45ms)
+		EndReloadAssembly (436ms)
+			LoadAssemblies (48ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (117ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (219ms)
+			SetupLoadedEditorAssemblies (221ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (122ms)
+				RefreshPlugins (125ms)
 				BeforeProcessingInitializeOnLoad (6ms)
 				ProcessInitializeOnLoadAttributes (65ms)
 				ProcessInitializeOnLoadMethodAttributes (22ms)
@@ -73,10 +73,10 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007016 seconds.
+Registered in 0.007234 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.66 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 1.64 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Opening scene 
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -90,7 +90,7 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 (Filename: Assets/Editor/ValheimExportHelper/WorldGeneratorFix.cs Line: 13)
 
-11/27/2022 16:50:48: Worldgenerator version setup:2
+11/27/2022 16:53:55: Worldgenerator version setup:2
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
@@ -107,28 +107,28 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 (Filename: Assets/Editor/ValheimExportHelper/WorldGeneratorFix.cs Line: 21)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.694 seconds
+- Completed reload, in  0.691 seconds
 Domain Reload Profiling:
-	ReloadAssembly (694ms)
-		BeginReloadAssembly (118ms)
+	ReloadAssembly (691ms)
+		BeginReloadAssembly (115ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (15ms)
 		EndReloadAssembly (528ms)
-			LoadAssemblies (71ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (178ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (174ms)
+			SetupLoadedEditorAssemblies (172ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
 				BeforeProcessingInitializeOnLoad (35ms)
-				ProcessInitializeOnLoadAttributes (126ms)
+				ProcessInitializeOnLoadAttributes (124ms)
 				ProcessInitializeOnLoadMethodAttributes (3ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
@@ -138,14 +138,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.92 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 2.35 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 865 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 83.4 MB.
 System memory in use after: 83.5 MB.
 
 Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 1684.
-Total: 1.857800 ms (FindLiveObjects: 0.099300 ms CreateObjectMapping: 0.031400 ms MarkObjects: 1.703200 ms  DeleteObjects: 0.023200 ms)
+Total: 2.116600 ms (FindLiveObjects: 0.120100 ms CreateObjectMapping: 0.045500 ms MarkObjects: 1.928600 ms  DeleteObjects: 0.021700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -159,7 +159,409 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Plugins/NGTools
-  artifactKey: Guid(488ae760d03e6b0439128fa4c51eb0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/NGTools using Guid(488ae760d03e6b0439128fa4c51eb0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533689c77c26cdf5432f5503938a3e24') in 0.003060 seconds 
+  path: Assets/RagnarokCustoms/Vanaheymr
+  artifactKey: Guid(8a3823ddb7882f64eb9e89bb0fae9d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RagnarokCustoms/Vanaheymr using Guid(8a3823ddb7882f64eb9e89bb0fae9d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae849e5f8227d8b22d7759903cb1841') in 0.003089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/RagnarokCustoms/Vanaheymr/Surtr
+  artifactKey: Guid(468f30d4fa84d254e8909e2022a43ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RagnarokCustoms/Vanaheymr/Surtr using Guid(468f30d4fa84d254e8909e2022a43ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aeecc37dda0d87f982e07c9da12b24e') in 0.001391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.281167 seconds.
+  path: Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs
+  artifactKey: Guid(693a8ecca22e59a48a9989fc1e0330e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs using Guid(693a8ecca22e59a48a9989fc1e0330e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d05369c3e2a199aa35da220399ba91') in 0.001304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047625 seconds.
+  path: Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/Surtr1.prefab
+  artifactKey: Guid(77ba8cdb79ffcef4380df678f88c3389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/Surtr1.prefab using Guid(77ba8cdb79ffcef4380df678f88c3389) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Controller 'Surtr_animator': Transition '' in state 'Emote_challenge' uses parameter 'emote_stop' which does not exist in controller.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\AnimatorController.cpp line 871]
+
+Controller 'Surtr_animator': Transition '' in state 'Emote_cheer' uses parameter 'emote_stop' which does not exist in controller.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\AnimatorController.cpp line 871]
+
+Controller 'Surtr_animator': Transition '' in state 'Emote_point' uses parameter 'emote_stop' which does not exist in controller.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\AnimatorController.cpp line 871]
+
+ -> (artifact id: '0f8b91a4ed89386c9643494e9dfc98e1') in 1.622962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/SurtrIdle.prefab
+  artifactKey: Guid(2469b858e97be9b40921ffe1a0ac1211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/SurtrIdle.prefab using Guid(2469b858e97be9b40921ffe1a0ac1211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa15386fca91d2d5bebd63c7ea86be14') in 0.104003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/SurtrSpawnAttack.prefab
+  artifactKey: Guid(8a5b76c038d64e94d8bb33c165d22cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/SurtrSpawnAttack.prefab using Guid(8a5b76c038d64e94d8bb33c165d22cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987b2f27a192f31f29a8bc5495bcca86') in 0.019629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/vfx_SawDustSurtr.prefab
+  artifactKey: Guid(642f97c581de8434eb30534eae51d824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/vfx_SawDustSurtr.prefab using Guid(642f97c581de8434eb30534eae51d824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd01ed14e505455e92f41f568cb55ad') in 1.160595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/SurtrEmotes.prefab
+  artifactKey: Guid(5d1b78d24d2801945b568a3d8697c518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/SurtrEmotes.prefab using Guid(5d1b78d24d2801945b568a3d8697c518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053de5da51640db838d1bad315895cb3') in 0.014200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/SurtrSwordAttack.prefab
+  artifactKey: Guid(49579ed3b1f64f943a9dab060c083962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/SurtrSwordAttack.prefab using Guid(49579ed3b1f64f943a9dab060c083962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86706f13232c4b08d43f928e518fe69') in 0.013467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/surtr_spawn.prefab
+  artifactKey: Guid(889f54232875cf248ae64314d92520cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/surtr_spawn.prefab using Guid(889f54232875cf248ae64314d92520cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e93a5e5b42d1123ef9116b274379a6e') in 0.002784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/Surtr2.prefab
+  artifactKey: Guid(3e538547909e0f5418cc067eb5ce60bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/Surtr2.prefab using Guid(3e538547909e0f5418cc067eb5ce60bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Controller 'Surtr_animator': Transition '' in state 'Emote_challenge' uses parameter 'emote_stop' which does not exist in controller.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\AnimatorController.cpp line 871]
+
+Controller 'Surtr_animator': Transition '' in state 'Emote_cheer' uses parameter 'emote_stop' which does not exist in controller.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\AnimatorController.cpp line 871]
+
+Controller 'Surtr_animator': Transition '' in state 'Emote_point' uses parameter 'emote_stop' which does not exist in controller.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\AnimatorController.cpp line 871]
+
+ -> (artifact id: '004477d5600b07cbb5ce6677d2390b0e') in 0.023921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/SurtrFireAttack.prefab
+  artifactKey: Guid(75343c89737af584b95a03a84b2857e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/SurtrFireAttack.prefab using Guid(75343c89737af584b95a03a84b2857e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2c0c12aa439981b5dca9a7388e4cac') in 0.012753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/surtr_shoot_projectile.prefab
+  artifactKey: Guid(0258a74f4542651468b06c55bbfa2aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/surtr_shoot_projectile.prefab using Guid(0258a74f4542651468b06c55bbfa2aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97977a6f159ce24c16727d0b6b327f4b') in 0.008527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/Surtr3.prefab
+  artifactKey: Guid(4c5e4857f7698c743a5af83e8444a893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/Surtr3.prefab using Guid(4c5e4857f7698c743a5af83e8444a893) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Controller 'Surtr_animator': Transition '' in state 'Emote_challenge' uses parameter 'emote_stop' which does not exist in controller.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\AnimatorController.cpp line 871]
+
+Controller 'Surtr_animator': Transition '' in state 'Emote_cheer' uses parameter 'emote_stop' which does not exist in controller.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\AnimatorController.cpp line 871]
+
+Controller 'Surtr_animator': Transition '' in state 'Emote_point' uses parameter 'emote_stop' which does not exist in controller.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\AnimatorController.cpp line 871]
+
+ -> (artifact id: 'e38c6ace5c5071bbe76b9637dd7110a9') in 0.024029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/SurtrJumpAttack.prefab
+  artifactKey: Guid(0d4662ebbfee3ad49b56c34835c46659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/SurtrJumpAttack.prefab using Guid(0d4662ebbfee3ad49b56c34835c46659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49be190f5c6685706a242b65e21b4228') in 0.015421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/SurtrDeath.prefab
+  artifactKey: Guid(6a27c020a02820c47ac26e447104b4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/SurtrDeath.prefab using Guid(6a27c020a02820c47ac26e447104b4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2fe78d33f337c3c8a3f54364f36e41') in 0.021045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 362.783824 seconds.
+  path: Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/Surtr1.prefab
+  artifactKey: Guid(77ba8cdb79ffcef4380df678f88c3389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/Surtr1.prefab using Guid(77ba8cdb79ffcef4380df678f88c3389) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Controller 'Surtr_animator': Transition '' in state 'Emote_challenge' uses parameter 'emote_stop' which does not exist in controller.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\AnimatorController.cpp line 871]
+
+Controller 'Surtr_animator': Transition '' in state 'Emote_cheer' uses parameter 'emote_stop' which does not exist in controller.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\AnimatorController.cpp line 871]
+
+Controller 'Surtr_animator': Transition '' in state 'Emote_point' uses parameter 'emote_stop' which does not exist in controller.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\AnimatorController.cpp line 871]
+
+ -> (artifact id: '700d27fd06b389f371855564f51f7e96') in 0.113374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.671704 seconds.
+  path: Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/Surtr2.prefab
+  artifactKey: Guid(3e538547909e0f5418cc067eb5ce60bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/Surtr2.prefab using Guid(3e538547909e0f5418cc067eb5ce60bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Controller 'Surtr_animator': Transition '' in state 'Emote_challenge' uses parameter 'emote_stop' which does not exist in controller.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\AnimatorController.cpp line 871]
+
+Controller 'Surtr_animator': Transition '' in state 'Emote_cheer' uses parameter 'emote_stop' which does not exist in controller.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\AnimatorController.cpp line 871]
+
+Controller 'Surtr_animator': Transition '' in state 'Emote_point' uses parameter 'emote_stop' which does not exist in controller.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\AnimatorController.cpp line 871]
+
+ -> (artifact id: '198141ea6fc66e30f6903a84f0683dbb') in 0.029616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.894146 seconds.
+  path: Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/Surtr3.prefab
+  artifactKey: Guid(4c5e4857f7698c743a5af83e8444a893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/Surtr3.prefab using Guid(4c5e4857f7698c743a5af83e8444a893) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Controller 'Surtr_animator': Transition '' in state 'Emote_challenge' uses parameter 'emote_stop' which does not exist in controller.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\AnimatorController.cpp line 871]
+
+Controller 'Surtr_animator': Transition '' in state 'Emote_cheer' uses parameter 'emote_stop' which does not exist in controller.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\AnimatorController.cpp line 871]
+
+Controller 'Surtr_animator': Transition '' in state 'Emote_point' uses parameter 'emote_stop' which does not exist in controller.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\AnimatorController.cpp line 871]
+
+ -> (artifact id: 'e3a4c8bf6b4a0cb163b533134a4ba438') in 0.032732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.036512 seconds.
+  path: Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/surtr_shoot_projectile.prefab
+  artifactKey: Guid(0258a74f4542651468b06c55bbfa2aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/surtr_shoot_projectile.prefab using Guid(0258a74f4542651468b06c55bbfa2aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6961e65827601cf93485d6f305fec1e3') in 0.013038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.439969 seconds.
+  path: Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/surtr_spawn.prefab
+  artifactKey: Guid(889f54232875cf248ae64314d92520cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/surtr_spawn.prefab using Guid(889f54232875cf248ae64314d92520cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567c367d822dc39524b825f7a67b6376') in 0.006363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.143639 seconds.
+  path: Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/SurtrDeath.prefab
+  artifactKey: Guid(6a27c020a02820c47ac26e447104b4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/SurtrDeath.prefab using Guid(6a27c020a02820c47ac26e447104b4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb38cd21d09ef7cde231d5fd1c3a4960') in 0.046888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.090313 seconds.
+  path: Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/SurtrEmotes.prefab
+  artifactKey: Guid(5d1b78d24d2801945b568a3d8697c518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/SurtrEmotes.prefab using Guid(5d1b78d24d2801945b568a3d8697c518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfbad04d28785f5adbceb535a14e8042') in 0.020785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.101006 seconds.
+  path: Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/SurtrFireAttack.prefab
+  artifactKey: Guid(75343c89737af584b95a03a84b2857e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/SurtrFireAttack.prefab using Guid(75343c89737af584b95a03a84b2857e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2796477d834b4c8c1f2a908de3a20732') in 0.015921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.102942 seconds.
+  path: Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/SurtrIdle.prefab
+  artifactKey: Guid(2469b858e97be9b40921ffe1a0ac1211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/SurtrIdle.prefab using Guid(2469b858e97be9b40921ffe1a0ac1211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee79b76200635a573189af79942682eb') in 0.013860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.105433 seconds.
+  path: Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/SurtrJumpAttack.prefab
+  artifactKey: Guid(0d4662ebbfee3ad49b56c34835c46659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/SurtrJumpAttack.prefab using Guid(0d4662ebbfee3ad49b56c34835c46659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac76fb13a1d5fc79a6ec44737986d8f2') in 0.013174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.082321 seconds.
+  path: Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/SurtrSpawnAttack.prefab
+  artifactKey: Guid(8a5b76c038d64e94d8bb33c165d22cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/SurtrSpawnAttack.prefab using Guid(8a5b76c038d64e94d8bb33c165d22cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d26ac8a3b197bea4626f2003a02b252') in 0.013233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.105388 seconds.
+  path: Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/SurtrSwordAttack.prefab
+  artifactKey: Guid(49579ed3b1f64f943a9dab060c083962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/SurtrSwordAttack.prefab using Guid(49579ed3b1f64f943a9dab060c083962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aee0bac1ed37e6e180e843f1f1a74d6') in 0.014587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.094066 seconds.
+  path: Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/vfx_SawDustSurtr.prefab
+  artifactKey: Guid(642f97c581de8434eb30534eae51d824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RagnarokCustoms/Vanaheymr/Surtr/Prefs/vfx_SawDustSurtr.prefab using Guid(642f97c581de8434eb30534eae51d824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328ca3217500fe81a4e2e725a09749ba') in 0.007317 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
